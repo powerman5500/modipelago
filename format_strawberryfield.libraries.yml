@@ -188,6 +188,14 @@ uv_strawberry:
     - core/drupalSettings
     - format_strawberryfield/universalviewer
 
+videojs:
+  version: 8.3.0
+  js:
+    https://vjs.zencdn.net/8.3.0/video.min.js: {external: true, minified: true}
+  css:
+    component:
+      https://vjs.zencdn.net/8.3.0/video-js.min.css: {external: true, minified: true}
+
 leaflet_markercluster:
   version: 1.4.1
   remote: https://github.com/Leaflet/Leaflet.markercluster
