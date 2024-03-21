@@ -76,6 +76,7 @@ iiif_iabookreader_strawberry:
     - core/modernizr
     - format_strawberryfield/iiif_openseadragon
     - format_strawberryfield/iiif_iabookreader
+
 pannellum:
   version: 2.5.6
   css:
@@ -83,6 +84,7 @@ pannellum:
       https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css: { external: true}
   js:
     https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js: { external: true, minified: true, preprocess: false}
+    https://cdn.jsdelivr.net/npm/pannellum@2.5.6/utils/video/videojs-pannellum-plugin.js: {external: true, preprocess: false}
 
 
 iiif_pannellum_strawberry:
