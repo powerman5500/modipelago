@@ -215,6 +215,7 @@
                       drupalSettings.format_strawberryfield.pannellum[element_id].tour.scenes[sceneid].hotSpots[hotspotid].clickHandlerArgs = hotspotdata.URL;
                     }
 		    drupalSettings.format_strawberryfield.pannellum[element_id].tour.scenes[sceneid].friction = 1.0;
+		    drupalSettings.format_strawberryfield.pannellum[element_id].tour.scenes[sceneid].sceneFadeDuration = 500;
                   });
                 }
                 if (mobile) {
